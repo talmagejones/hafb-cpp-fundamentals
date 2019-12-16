@@ -1,6 +1,6 @@
 /**
  * @file multi_tables.cpp
- * @author your name (you@domain.com)
+ * @author Talmage Jones (talmagehjones@gmail.com)
  * @brief Display multiplication tables based on user input
  * @version 0.1
  * @date 2019-12-16
