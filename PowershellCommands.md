@@ -3,8 +3,8 @@ Note : ($ means terminal prompt)
 ```bash
 $ ls        # list folder
 $ cd <dest> # change direcory
-
-
+$ cd ..     # .. parent directory
+$ pwd       #
 ```
 
 ## File System
@@ -20,4 +20,16 @@ $ cd <dest> # change direcory
 $ g++ main.cpp -o main
 # To run
 $ ./main.exe
+```
+
+## C++ File Template
+```c++
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    
+    return 0;
+}
 ```
