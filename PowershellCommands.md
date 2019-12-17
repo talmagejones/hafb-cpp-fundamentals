@@ -12,7 +12,7 @@
 ## Terminal Commands 
 Note: ($ means terminal prompt):
 ```bash
-$   ls          # list folder 
+$   ls          # list folder contents
 $ cd  <dest>  	# change directories
 $ cd   ..		# .. parent directory 
 $ pwd           # show present working directory
