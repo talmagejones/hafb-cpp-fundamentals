@@ -18,6 +18,7 @@ $ cd   ..		# .. parent directory
 $ pwd           # show present working directory
 $ rm <name>     # remove/delete file/directory
 $ mkdir <name>  # make a directory/folder
+$ cp <source> <dest>
 ```
 ## File System
 ``` bash
