@@ -2,6 +2,10 @@
 #include <iostream>
 using namespace std;
 
+/**
+ * @brief 
+ * 
+ */
 void FactorMod3()
 {
     unsigned int count = 0;
@@ -53,4 +57,24 @@ void FactorModXRange(int mod_number, int max_range)
         }
     }
     cout << "The result is: " << count << endl;
+}
+
+/**
+ * @brief Get the Factor Mod X Range object
+ * 
+ * @param mod_number : the divisible number
+ * @param max_range : the maximum range 
+ * @return unsigned int : number of instances
+ */
+unsigned int GetFactorModXRange(int mod_number, int max_range)
+{
+        unsigned int count = 0;
+    for (unsigned int x = 1; x <= max_range; ++x)
+    {
+        if (x % mod_number == 0)
+        {
+             count++;
+        }
+    }
+    return count;
 }
