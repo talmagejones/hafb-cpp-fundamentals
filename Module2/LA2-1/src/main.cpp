@@ -53,14 +53,14 @@ int main() {
 
   // the string function find
   std::string story = 
-    "adsfds dhdf gf dsfg sfdg qewro werf wfe sjdf sdf sdfewioqew nqew dewn ewewnew ew ewd"
-    "zsdgff  sdfgdf df gd dfgdfs dsfg dfg.dfg dgh.d ger gyre .ergr fdgdfg";
+      "The dragons are flying over the mountains. They are hunting for a "
+      "place to settle for the waldo night. What they see is endless horizon.";
 
-  std::cout << "wfe is at location: " << story.find("wfe") << std::endl;
+  std::cout << "waldo is at location: " << story.find("waldo") << std::endl;
 
   // the string function replace
   std::cout << story << std::endl;
-  std::string nick = "wfe";
+  std::string nick = "waldo";
   std::string new_nick = "XXXXX";
   story.replace(story.find(nick), nick.size(), new_nick); // replace wfe with xxxxx
   std::cout << story << std::endl;
