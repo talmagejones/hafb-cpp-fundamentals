@@ -17,6 +17,7 @@ $ cd  <dest>  	# change directories
 $ cd   ..		# .. parent directory 
 $ pwd           # show present working directory
 $ rm <name>     # remove/delete file/directory
+$ mkdir <name>  # make a directory/folder
 ```
 ## File System
 ``` bash
@@ -24,7 +25,8 @@ $ rm <name>     # remove/delete file/directory
 ..   # (two dots) parent directory
 ```
 ## C++ Basics
-- File extension: `.cpp`
+- Source file extension: `.cpp`
+- Header files: `.h`,`.hpp`
 
 ## g++ Compiler for 1 file
 ```bash
@@ -73,3 +75,18 @@ int main()
 To generate Doxygen documentation: 
 // Run /** and <Enter>
 ```
+
+## Cloning a git repository in VSCode
+- hit F1 to enter a command
+- type Git: Clone
+- copy and paste the address of the repository to clone from github
+- follow instructions
+
+## CMake
+To build a project we need all the 
+rules to be set under `CMakeLists.txt`
+file.
+- Create a build folder: `$ mkdir build`
+- Go to the build dir: `$ cd build`
+- Run cmake: `$ cmake .. -G "MinGW Makefiles"`. The `..` is becuase your CMakeLists.txt is one folder up.
+- Build of compile your code: `$ cmake --build`. The `.` means to build it in pwd.
