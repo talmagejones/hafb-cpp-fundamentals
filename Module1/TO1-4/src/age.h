@@ -1,5 +1,7 @@
 #ifndef AGE_H_
 #define AGE_H_
 
+void ByValueAgeIn5Years(int age);
+int CurrentAge(int age);
 
 #endif /* !AGE_H_ */
