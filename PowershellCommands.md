@@ -90,4 +90,4 @@ file.
 - Create a build folder: `$ mkdir build`
 - Go to the build dir: `$ cd build`
 - Run cmake: `$ cmake .. -G "MinGW Makefiles"`. The `..` is becuase your CMakeLists.txt is one folder up.
-- Build of compile your code: `$ cmake --build`. The `.` means to build it in pwd.
+- Build of compile your code: `$ cmake --build .`. The `.` means to build it in pwd.
