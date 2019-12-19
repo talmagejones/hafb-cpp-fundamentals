@@ -19,5 +19,10 @@ public:
     // Other Methods
     void ShowDist() const;
 
-    Distance operator + (Distance d2) const;
+    Distance operator + (Distance rhs) const;
+
+    friend std::ostream& operator << (std::ostream& os, const Distance& distance);
+    // the output and input ostreams should match. Thats's why they are both references
+    // to output streams. The & could be attached 'ostream& os' or 'ostream &os' and they are 
+    // the same 
 };
