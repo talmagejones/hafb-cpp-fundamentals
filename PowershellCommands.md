@@ -1,3 +1,5 @@
+http://icarus.cs.weber.edu/~hvalle/hafb/hafb-module5.zip
+
 ## C++ Environment in Windows
 - VSCode  https://code.visualstudio.com/   // code editor
 - git   https://git-scm.com/        // for source control
