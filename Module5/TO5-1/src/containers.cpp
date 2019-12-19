@@ -4,6 +4,21 @@
 #include <algorithm>
 #include <iterator>
 
+void Load_Data(std::vector<Data>& data, const std::string& input_file)
+{
+    Data temp;
+    csvstream csvinput(input_file);
+    std::map<std::string, std::string> row;
+    // Extract the  column
+    while(csvinput >> row)
+    {
+        temp.id = std::stoi(row["id"]);
+        temp.gender = row["gender"];
+        temp.school = row["school"];
+        temp.state = row["state"];
+        data.push_back(temp);   // load Data struct into vector
+    }
+}
 
 /**
  * @brief Display the content of a map
